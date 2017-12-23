@@ -1,0 +1,18 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+
+<div ng-app="test1">
+    <p>名字 : <input type="text" ng-model="name"></p>
+    <h1>Hello {{name}}</h1>
+</div>
+<div ng-app="test2" ng-init="firstName='John'">
+
+    <p>姓名为 <span ng-bind="firstName"></span></p>
+
+</div>
+</body>
+</html>

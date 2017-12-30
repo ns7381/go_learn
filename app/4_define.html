@@ -1,0 +1,19 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp">
+
+<nathan-define></nathan-define>
+
+<script>
+    var app = angular.module("myApp", []);
+    app.directive("nathanDefine", function () {
+        return {
+            template: "<h1>Nathan Good!</h1>"
+        };
+    });
+</script>
+</body>
+</html>

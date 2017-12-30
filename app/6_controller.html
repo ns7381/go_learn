@@ -1,0 +1,19 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="namesCtrl">
+
+    <ul>
+        <li ng-repeat="x in names">
+        {{ x.name + ', ' + x.country }}
+        </li>
+    </ul>
+
+</div>
+
+<script src="6_controller.js"></script>
+</body>
+</html>
